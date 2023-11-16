@@ -1,18 +1,24 @@
 {
-  "name": "server",
+  "name": "employeecards",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "socket.io": "^4.1.3",
-    "twilio": "^3.66.1",
-    "uuid": "^8.3.2"
-  }
+    "expo": "~49.0.15",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-web": "~0.19.6",
+    "react-dom": "18.2.0",
+    "@expo/webpack-config": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
 }
